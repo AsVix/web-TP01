@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TP01</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>TP01</h2>
+  <form id="submit" action="">
+    <div class="form-group">
+      <label for="nom">Nom:</label>
+      <input type="nom" class="form-control" id="nom" placeholder="nom" name="nom" pattern="[a-z]*">
+    </div>
+    <div class="form-group">
+      <label for="Prénom">Prénom:</label>
+      <input type="Prénom" class="form-control" id="Prénom" placeholder="Prénom" name="Prénom" pattern="[a-z]*">
+    </div>
+    <div class="form-group">
+      <label for="adresse">adresse:</label>
+      <input type="adresse" class="form-control" id="adresse" placeholder="adresse" name="adresse">
+    </div>
+    <div class="form-group">
+      <label for="cp">Code Postal:</label>
+      <input type="cp" class="form-control" id="cp" placeholder="Code Postale" name="cp" pattern="[0-9]*">
+    </div>
+    <div class="form-group">
+      <label for="ville">ville:</label>
+      <input type="ville" class="form-control" id="ville" placeholder="ville" name="ville" pattern="[a-z]*">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="civ">Civilité:</label>
+      <input type="civ" class="form-control" id="civ" placeholder="Civilité" name="civ">
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" class="form-control" id="password" placeholder="password" name="password">
+    </div>
+    <div class="form-group">
+      <label for="login">Login:</label>
+      <input type="login" class="form-control" id="login" placeholder="login" name="login">
+    </div>
+
+    <button id="button" type="button" value="send" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<div id="result"></div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="tp01-js.js"></script>
+</html>
